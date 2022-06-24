@@ -16,7 +16,7 @@ export function Lesson(props: LessonProps) {
   const availableDateFormatted = format(
     props.availableAt,
     "EEEE' • 'd' de 'MMMM' • 'k'h'mm",
-    { locale: ptBR }
+    { locale: ptBR } 
   );
 
   const isActiveLesson = slug === props.slug;
